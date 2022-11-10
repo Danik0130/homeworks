@@ -1,0 +1,48 @@
+.icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+.open .icon {
+    cursor: pointer;
+    background: url(minus.gif);
+}
+
+.closed .icon {
+    cursor: pointer;
+    background: url(plus.gif);
+}
+
+.leaf .icon {
+    cursor: text;
+    background: url(article.gif);
+}
+
+
+/*+ no-beautify */
+
+.icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url(icons.gif) no-repeat;
+}
+
+.open .icon {
+    background-position: 0 -16px;
+    /* вверх на 16px */
+    cursor: pointer;
+}
+
+.closed .icon {
+    background-position: 0 0px;
+    /* по умолчанию */
+    cursor: pointer;
+}
+
+.leaf .icon {
+    background-position: 0 -32px;
+    /* вверх на 32px */
+    cursor: text;
+}
